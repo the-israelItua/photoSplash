@@ -1,0 +1,16 @@
+.header {
+  padding: 3%;
+  background: url(./image/four.jpg);
+  background-size: 300%;
+}
+h1,
+p {
+  color: wheat;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 760px) {
+  .header {
+    background-size: auto;
+  }
+}
